@@ -1,6 +1,6 @@
-name: Create JIRA issue link
+name: Create Jira issue link
 author: harupy
-description: Create JIRA issue link on pull requests
+description: Create Jira issue link on pull requests
 inputs:
   domain:
     description: Atlassian domain
