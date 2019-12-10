@@ -14,4 +14,5 @@ with:
 
 ## Example
 
-[example](./.github/workflows/example.yml)
+[workflow](./.github/workflows/example.yml)
+[pull request](https://github.com/harupy/create-jira-issue-link/pull/1)
