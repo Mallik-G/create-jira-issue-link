@@ -1,6 +1,6 @@
 # Create Jira issue link
 
-GitHub Actions to create a Jira issue link on pull reqests.
+GitHub action to create a Jira issue link on pull reqests.
 
 ## Usage
 
