@@ -1,0 +1,13 @@
+name: example
+on: pull_request
+jobs:
+  create-jira-issue-link:
+    name: Create Jira issue link
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: harupy/create-jira-issue-link@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          domain: example.atlassian.net

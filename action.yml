@@ -1,0 +1,10 @@
+name: Create JIRA issue link
+author: harupy
+description: Create JIRA issue link on pull requests
+inputs:
+  domain:
+    description: Atlassian domain
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
